@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0C40A065327515BF98FC2A /* Pods_PryanikiTestAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C297EF0D2FD4343925529EF /* Pods_PryanikiTestAppTests.framework */; };
+		4A1D3ED38D19DE703973D651 /* Pods_PryanikiTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA61799633136DC5BBA162E9 /* Pods_PryanikiTestApp.framework */; };
+		5C1F98B325F0C34500A435E7 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F98B225F0C34500A435E7 /* Sample.swift */; };
+		5C1F98C225F0EA1800A435E7 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F98C125F0EA1800A435E7 /* ApiClient.swift */; };
+		5C1F98E025F2BA3500A435E7 /* HZTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F98DE25F2BA3500A435E7 /* HZTableViewCell.swift */; };
+		5C1F98E125F2BA3500A435E7 /* HZTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1F98DF25F2BA3500A435E7 /* HZTableViewCell.xib */; };
+		5C1F98EB25F2BA9600A435E7 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F98E925F2BA9500A435E7 /* PictureTableViewCell.swift */; };
+		5C1F98EC25F2BA9600A435E7 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1F98EA25F2BA9600A435E7 /* PictureTableViewCell.xib */; };
+		5C1F990625F2BC2500A435E7 /* SelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F990425F2BC2400A435E7 /* SelectorTableViewCell.swift */; };
+		5C1F990725F2BC2500A435E7 /* SelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C1F990525F2BC2500A435E7 /* SelectorTableViewCell.xib */; };
+		5C1F990C25F2C0DE00A435E7 /* PryanikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F990B25F2C0DE00A435E7 /* PryanikiViewController.swift */; };
 		5C51A33125F0BE990090955B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51A33025F0BE990090955B /* AppDelegate.swift */; };
 		5C51A33325F0BE990090955B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51A33225F0BE990090955B /* SceneDelegate.swift */; };
-		5C51A33525F0BE990090955B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51A33425F0BE990090955B /* ViewController.swift */; };
 		5C51A33825F0BE990090955B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C51A33625F0BE990090955B /* Main.storyboard */; };
 		5C51A33A25F0BE9E0090955B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C51A33925F0BE9E0090955B /* Assets.xcassets */; };
 		5C51A33D25F0BE9E0090955B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C51A33B25F0BE9E0090955B /* LaunchScreen.storyboard */; };
 		5C51A34825F0BE9F0090955B /* PryanikiTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51A34725F0BE9F0090955B /* PryanikiTestAppTests.swift */; };
 		5C51A35325F0BE9F0090955B /* PryanikiTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C51A35225F0BE9F0090955B /* PryanikiTestAppUITests.swift */; };
+		5C7977D825F81780007B75B0 /* SelectorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7977D725F81780007B75B0 /* SelectorDelegate.swift */; };
+		5C7977E125F8F2A4007B75B0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7977E025F8F2A4007B75B0 /* DetailsViewController.swift */; };
+		BCBF8BB1D53853641B0DDD41 /* Pods_PryanikiTestApp_PryanikiTestAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62288C8DE5FF97F04F7E3E39 /* Pods_PryanikiTestApp_PryanikiTestAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C1F98B225F0C34500A435E7 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		5C1F98C125F0EA1800A435E7 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		5C1F98DE25F2BA3500A435E7 /* HZTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZTableViewCell.swift; sourceTree = "<group>"; };
+		5C1F98DF25F2BA3500A435E7 /* HZTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZTableViewCell.xib; sourceTree = "<group>"; };
+		5C1F98E925F2BA9500A435E7 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		5C1F98EA25F2BA9600A435E7 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
+		5C1F990425F2BC2400A435E7 /* SelectorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorTableViewCell.swift; sourceTree = "<group>"; };
+		5C1F990525F2BC2500A435E7 /* SelectorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorTableViewCell.xib; sourceTree = "<group>"; };
+		5C1F990B25F2C0DE00A435E7 /* PryanikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikiViewController.swift; sourceTree = "<group>"; };
+		5C297EF0D2FD4343925529EF /* Pods_PryanikiTestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikiTestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C51A32D25F0BE990090955B /* PryanikiTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryanikiTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C51A33025F0BE990090955B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C51A33225F0BE990090955B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5C51A33425F0BE990090955B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C51A33725F0BE990090955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C51A33925F0BE9E0090955B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C51A33C25F0BE9E0090955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +71,16 @@
 		5C51A34E25F0BE9F0090955B /* PryanikiTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryanikiTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C51A35225F0BE9F0090955B /* PryanikiTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikiTestAppUITests.swift; sourceTree = "<group>"; };
 		5C51A35425F0BE9F0090955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7977D725F81780007B75B0 /* SelectorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorDelegate.swift; sourceTree = "<group>"; };
+		5C7977E025F8F2A4007B75B0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		62288C8DE5FF97F04F7E3E39 /* Pods_PryanikiTestApp_PryanikiTestAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikiTestApp_PryanikiTestAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F32B45AE862942A0E96712 /* Pods-PryanikiTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestApp.debug.xcconfig"; path = "Target Support Files/Pods-PryanikiTestApp/Pods-PryanikiTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A15734C01948DCE739D0F063 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestApp-PryanikiTestAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PryanikiTestApp-PryanikiTestAppUITests/Pods-PryanikiTestApp-PryanikiTestAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C60A6015DEA9939EB0C95BEB /* Pods-PryanikiTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-PryanikiTestAppTests/Pods-PryanikiTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD15F6E531B1DB93BE11DA65 /* Pods-PryanikiTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PryanikiTestAppTests/Pods-PryanikiTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E663184975413A3A910125F7 /* Pods-PryanikiTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestApp.release.xcconfig"; path = "Target Support Files/Pods-PryanikiTestApp/Pods-PryanikiTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		EA61799633136DC5BBA162E9 /* Pods_PryanikiTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikiTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E44EA28CBCD8F8367008E4 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikiTestApp-PryanikiTestAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PryanikiTestApp-PryanikiTestAppUITests/Pods-PryanikiTestApp-PryanikiTestAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1D3ED38D19DE703973D651 /* Pods_PryanikiTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0C40A065327515BF98FC2A /* Pods_PryanikiTestAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +104,90 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBF8BB1D53853641B0DDD41 /* Pods_PryanikiTestApp_PryanikiTestAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4EEAEF6825A4EF8BABE43B20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77F32B45AE862942A0E96712 /* Pods-PryanikiTestApp.debug.xcconfig */,
+				E663184975413A3A910125F7 /* Pods-PryanikiTestApp.release.xcconfig */,
+				A15734C01948DCE739D0F063 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.debug.xcconfig */,
+				F5E44EA28CBCD8F8367008E4 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.release.xcconfig */,
+				CD15F6E531B1DB93BE11DA65 /* Pods-PryanikiTestAppTests.debug.xcconfig */,
+				C60A6015DEA9939EB0C95BEB /* Pods-PryanikiTestAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C1F98AE25F0C29400A435E7 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5C51A33025F0BE990090955B /* AppDelegate.swift */,
+				5C51A33225F0BE990090955B /* SceneDelegate.swift */,
+				5C7977D725F81780007B75B0 /* SelectorDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		5C1F98AF25F0C2E400A435E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F98B225F0C34500A435E7 /* Sample.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C1F98B025F0C2ED00A435E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F98DD25F2B9FD00A435E7 /* HZTableViewCell */,
+				5C1F98E825F2BA5E00A435E7 /* PictureTableViewCell */,
+				5C1F98F325F2BAC600A435E7 /* SelectorTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5C1F98B125F0C2F300A435E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F990B25F2C0DE00A435E7 /* PryanikiViewController.swift */,
+				5C7977E025F8F2A4007B75B0 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5C1F98DD25F2B9FD00A435E7 /* HZTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F98DE25F2BA3500A435E7 /* HZTableViewCell.swift */,
+				5C1F98DF25F2BA3500A435E7 /* HZTableViewCell.xib */,
+			);
+			path = HZTableViewCell;
+			sourceTree = "<group>";
+		};
+		5C1F98E825F2BA5E00A435E7 /* PictureTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F98E925F2BA9500A435E7 /* PictureTableViewCell.swift */,
+				5C1F98EA25F2BA9600A435E7 /* PictureTableViewCell.xib */,
+			);
+			path = PictureTableViewCell;
+			sourceTree = "<group>";
+		};
+		5C1F98F325F2BAC600A435E7 /* SelectorTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F990425F2BC2400A435E7 /* SelectorTableViewCell.swift */,
+				5C1F990525F2BC2500A435E7 /* SelectorTableViewCell.xib */,
+			);
+			path = SelectorTableViewCell;
+			sourceTree = "<group>";
+		};
 		5C51A32425F0BE990090955B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +195,8 @@
 				5C51A34625F0BE9F0090955B /* PryanikiTestAppTests */,
 				5C51A35125F0BE9F0090955B /* PryanikiTestAppUITests */,
 				5C51A32E25F0BE990090955B /* Products */,
+				4EEAEF6825A4EF8BABE43B20 /* Pods */,
+				6D84F17D94835A29DF004626 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +213,11 @@
 		5C51A32F25F0BE990090955B /* PryanikiTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				5C51A33025F0BE990090955B /* AppDelegate.swift */,
-				5C51A33225F0BE990090955B /* SceneDelegate.swift */,
-				5C51A33425F0BE990090955B /* ViewController.swift */,
+				5C7977DC25F817DA007B75B0 /* Clients */,
+				5C1F98AE25F0C29400A435E7 /* Delegates */,
+				5C1F98AF25F0C2E400A435E7 /* Models */,
+				5C1F98B025F0C2ED00A435E7 /* Views */,
+				5C1F98B125F0C2F300A435E7 /* Controllers */,
 				5C51A33625F0BE990090955B /* Main.storyboard */,
 				5C51A33925F0BE9E0090955B /* Assets.xcassets */,
 				5C51A33B25F0BE9E0090955B /* LaunchScreen.storyboard */,
@@ -128,6 +244,24 @@
 			path = PryanikiTestAppUITests;
 			sourceTree = "<group>";
 		};
+		5C7977DC25F817DA007B75B0 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F98C125F0EA1800A435E7 /* ApiClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		6D84F17D94835A29DF004626 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA61799633136DC5BBA162E9 /* Pods_PryanikiTestApp.framework */,
+				62288C8DE5FF97F04F7E3E39 /* Pods_PryanikiTestApp_PryanikiTestAppUITests.framework */,
+				5C297EF0D2FD4343925529EF /* Pods_PryanikiTestAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C51A35725F0BE9F0090955B /* Build configuration list for PBXNativeTarget "PryanikiTestApp" */;
 			buildPhases = (
+				17EA52FA40515871C26D7824 /* [CP] Check Pods Manifest.lock */,
 				5C51A32925F0BE990090955B /* Sources */,
 				5C51A32A25F0BE990090955B /* Frameworks */,
 				5C51A32B25F0BE990090955B /* Resources */,
+				75FA255DF617404BC66E1380 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +288,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C51A35A25F0BE9F0090955B /* Build configuration list for PBXNativeTarget "PryanikiTestAppTests" */;
 			buildPhases = (
+				B742488B1E23D704BD138E7B /* [CP] Check Pods Manifest.lock */,
 				5C51A33F25F0BE9F0090955B /* Sources */,
 				5C51A34025F0BE9F0090955B /* Frameworks */,
 				5C51A34125F0BE9F0090955B /* Resources */,
@@ -170,9 +307,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C51A35D25F0BE9F0090955B /* Build configuration list for PBXNativeTarget "PryanikiTestAppUITests" */;
 			buildPhases = (
+				D3943BBBF655BA6C8266191D /* [CP] Check Pods Manifest.lock */,
 				5C51A34A25F0BE9F0090955B /* Sources */,
 				5C51A34B25F0BE9F0090955B /* Frameworks */,
 				5C51A34C25F0BE9F0090955B /* Resources */,
+				11FE51A207578D9441AABDE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +370,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1F990725F2BC2500A435E7 /* SelectorTableViewCell.xib in Resources */,
 				5C51A33D25F0BE9E0090955B /* LaunchScreen.storyboard in Resources */,
+				5C1F98E125F2BA3500A435E7 /* HZTableViewCell.xib in Resources */,
 				5C51A33A25F0BE9E0090955B /* Assets.xcassets in Resources */,
 				5C51A33825F0BE990090955B /* Main.storyboard in Resources */,
+				5C1F98EC25F2BA9600A435E7 /* PictureTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +395,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11FE51A207578D9441AABDE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp-PryanikiTestAppUITests/Pods-PryanikiTestApp-PryanikiTestAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp-PryanikiTestAppUITests/Pods-PryanikiTestApp-PryanikiTestAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp-PryanikiTestAppUITests/Pods-PryanikiTestApp-PryanikiTestAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17EA52FA40515871C26D7824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikiTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75FA255DF617404BC66E1380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp/Pods-PryanikiTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp/Pods-PryanikiTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikiTestApp/Pods-PryanikiTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B742488B1E23D704BD138E7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikiTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3943BBBF655BA6C8266191D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikiTestApp-PryanikiTestAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C51A32925F0BE990090955B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C51A33525F0BE990090955B /* ViewController.swift in Sources */,
+				5C1F98B325F0C34500A435E7 /* Sample.swift in Sources */,
+				5C1F990625F2BC2500A435E7 /* SelectorTableViewCell.swift in Sources */,
 				5C51A33125F0BE990090955B /* AppDelegate.swift in Sources */,
 				5C51A33325F0BE990090955B /* SceneDelegate.swift in Sources */,
+				5C1F990C25F2C0DE00A435E7 /* PryanikiViewController.swift in Sources */,
+				5C1F98EB25F2BA9600A435E7 /* PictureTableViewCell.swift in Sources */,
+				5C7977D825F81780007B75B0 /* SelectorDelegate.swift in Sources */,
+				5C1F98C225F0EA1800A435E7 /* ApiClient.swift in Sources */,
+				5C1F98E025F2BA3500A435E7 /* HZTableViewCell.swift in Sources */,
+				5C7977E125F8F2A4007B75B0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +685,7 @@
 		};
 		5C51A35825F0BE9F0090955B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F32B45AE862942A0E96712 /* Pods-PryanikiTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +705,7 @@
 		};
 		5C51A35925F0BE9F0090955B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E663184975413A3A910125F7 /* Pods-PryanikiTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +725,7 @@
 		};
 		5C51A35B25F0BE9F0090955B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD15F6E531B1DB93BE11DA65 /* Pods-PryanikiTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +748,7 @@
 		};
 		5C51A35C25F0BE9F0090955B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60A6015DEA9939EB0C95BEB /* Pods-PryanikiTestAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +771,7 @@
 		};
 		5C51A35E25F0BE9F0090955B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15734C01948DCE739D0F063 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +792,7 @@
 		};
 		5C51A35F25F0BE9F0090955B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E44EA28CBCD8F8367008E4 /* Pods-PryanikiTestApp-PryanikiTestAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
